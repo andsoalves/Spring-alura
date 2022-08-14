@@ -9,7 +9,7 @@ public class HelloController {
 	
 	@RequestMapping("/")
 	@ResponseBody
-	public String hello( ) {
+	public String hello() {
 		return "Hello World!";
 	}
 
